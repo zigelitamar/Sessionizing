@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BltuRq4W5Ds7yTnNveVgRwwaXonJW4Kwp6PZl6KK3M0k+SkIg3RL6Axwa+AoFA49iPfsR5sPtHhy4IMCVsM81w==",
+  "success": true,
+  "projectFilePath": "/Users/itamarsigel/RiderProjects/Sessionizing/Sessionizing/Sessionizing.csproj",
+  "expectedPackageFiles": [
+    "/Users/itamarsigel/.nuget/packages/csvhelper/27.1.1/csvhelper.27.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
