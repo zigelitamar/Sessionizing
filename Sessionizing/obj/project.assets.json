@@ -43,19 +43,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/itamarsigel/.nuget/packages/": {}
+    "/Users/aviv.amsellem/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/itamarsigel/RiderProjects/Sessionizing/Sessionizing/Sessionizing.csproj",
+      "projectUniqueName": "/Users/aviv.amsellem/RiderProjects/Sessionizing/Sessionizing/Sessionizing.csproj",
       "projectName": "Sessionizing",
-      "projectPath": "/Users/itamarsigel/RiderProjects/Sessionizing/Sessionizing/Sessionizing.csproj",
-      "packagesPath": "/Users/itamarsigel/.nuget/packages/",
-      "outputPath": "/Users/itamarsigel/RiderProjects/Sessionizing/Sessionizing/obj/",
+      "projectPath": "/Users/aviv.amsellem/RiderProjects/Sessionizing/Sessionizing/Sessionizing.csproj",
+      "packagesPath": "/Users/aviv.amsellem/.nuget/packages/",
+      "outputPath": "/Users/aviv.amsellem/RiderProjects/Sessionizing/Sessionizing/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/itamarsigel/.nuget/NuGet/NuGet.Config"
+        "/Users/aviv.amsellem/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

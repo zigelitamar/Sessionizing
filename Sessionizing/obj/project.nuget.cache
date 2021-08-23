@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BltuRq4W5Ds7yTnNveVgRwwaXonJW4Kwp6PZl6KK3M0k+SkIg3RL6Axwa+AoFA49iPfsR5sPtHhy4IMCVsM81w==",
+  "dgSpecHash": "Hupm+0p51QM67qHuSpaJualwSdjqGn9YTyle1VPShU2gUIUyRkOYhWS/PmPnuYL04egyeLTzzeeUULlPHiF2Gg==",
   "success": true,
-  "projectFilePath": "/Users/itamarsigel/RiderProjects/Sessionizing/Sessionizing/Sessionizing.csproj",
+  "projectFilePath": "/Users/aviv.amsellem/RiderProjects/Sessionizing/Sessionizing/Sessionizing.csproj",
   "expectedPackageFiles": [
-    "/Users/itamarsigel/.nuget/packages/csvhelper/27.1.1/csvhelper.27.1.1.nupkg.sha512"
+    "/Users/aviv.amsellem/.nuget/packages/csvhelper/27.1.1/csvhelper.27.1.1.nupkg.sha512"
   ],
   "logs": []
 }

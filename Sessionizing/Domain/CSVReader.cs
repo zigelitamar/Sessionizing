@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -12,34 +13,39 @@ namespace Sessionizing.Domain
     {
         private string directory;
         private List<string> files = new List<string>();
-        
+        private int totalRecords { get; set; }
+
         public CSVReader(string path)
         {
             this.directory = path;
         }
         
-        public List<IEnumerable<PageView>> ReadData()
+        public List<IEnumerator<PageView>> ReadData()
         {
+            this.totalRecords = 0;
             files = this.getCSVFileNames();
-            var allfiles = new List<IEnumerable<PageView>>();
+            List<IEnumerator<PageView>> allPageViewsListsIterators = new List<IEnumerator<PageView>>();
+            
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
                 HasHeaderRecord = false,
             };
-            foreach (var currentCSVName in this.files)
+            
+            foreach (var currentCSVFileName in this.files)
             {
-                using (var reader = new StreamReader(currentCSVName))
-                using (var csv = new CsvReader(reader, config))
-                {
-                    var file = csv.GetRecords<PageView>();
-                    allfiles.Add(file);
-
-                }
+                var reader = new StreamReader(currentCSVFileName);
+                var csv = new CsvReader(reader, config);
                 
+                IEnumerable<PageView> pageViewsListIterator = csv.GetRecords<PageView>();
+                // this.totalRecords += pageViewsListIterator.Count();
+                    // foreach (PageView currentPageView in pageViewsListIterator)
+                    // {
+                    //     Console.WriteLine($"url: {currentPageView.url}");
+                    // }
+                allPageViewsListsIterators.Add(pageViewsListIterator.GetEnumerator());
             }
 
-            return allfiles;
-
+            return allPageViewsListsIterators;
         }
 
         private List<string> getCSVFileNames()

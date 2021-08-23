@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Sessionizing
-build_property.ProjectDir = /Users/itamarsigel/RiderProjects/Sessionizing/Sessionizing/
+build_property.ProjectDir = /Users/aviv.amsellem/RiderProjects/Sessionizing/Sessionizing/

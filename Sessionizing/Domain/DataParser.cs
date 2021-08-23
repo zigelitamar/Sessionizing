@@ -4,9 +4,9 @@ namespace Sessionizing.Domain
     {
 
 
-        private IterateOverDataFiles()
-        {
-            
-        }
+        // private IterateOverDataFiles()
+        // {
+        //     
+        // }
     }
 }

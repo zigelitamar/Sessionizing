@@ -4,6 +4,6 @@ namespace Sessionizing.Domain
 {
     public interface IReader
     {
-        public List<IEnumerable<PageView>> ReadData();
+        public List<IEnumerator<PageView>> ReadData();
     }
 }
