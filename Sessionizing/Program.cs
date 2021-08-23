@@ -98,7 +98,7 @@ namespace Sessionizing
                     {
                         // set to the user a new session
                         Dictionary<string, Session> visitorSessionDictionary = urlSessionDictionary[currentPageView.mainUrl].Item1;
-                        visitorSessionDictionary[currentPageView.mainUrl] = new Session(currentPageView.timestamp);
+                        visitorSessionDictionary[currentPageView.visitor] = new Session(currentPageView.timestamp);
                         
                         // get  the session counter and increment it
                         int sessionCounter = urlSessionDictionary[currentPageView.mainUrl].Item2 + 1;
